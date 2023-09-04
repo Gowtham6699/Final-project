@@ -1,26 +1,26 @@
 Predicting Breast Cancer in a Patient
 
-Abstract
+  Abstract
         Breast cancer is a prevalent and life-threatening disease, responsible for a significant number of deaths worldwide. It is the most common cancer among women and necessitates early detection and accurate diagnosis for effective treatment. This project focuses on utilizing ensemble techniques and data mining methods to predict breast cancer in patients based on cell nuclei characteristics.
 
-Problem Statement
+  Problem Statement
         The main objective of this project is to predict whether a patient has breast cancer or not by analyzing the details of cell nuclei extracted from breast mass. The prediction is made using ensemble techniques, which combine the power of multiple algorithms to improve accuracy. Before building the predictive model, an essential step involves exploratory data analysis (EDA) to gain insights into the data's characteristics. Additionally, the model's performance will be evaluated using various metrics beyond just accuracy.
 
-Dataset Information
+  Dataset Information
         The dataset used for this project contains several predictor variables and one target variable, 'Diagnosis.' The target variable has two categories: 'Benign,' indicating the absence of cancer, and 'Malignant,' indicating the presence of cancer with harmful effects on the cells.
 
-Variable Description
-radius: Mean of distances from the center to points on the perimeter.
-texture: Standard deviation of gray-scale values.
-perimeter: Observed perimeter of the lump.
-area: Observed area of the lump.
-smoothness: Local variation in radius lengths.
-compactness: (perimeter^2) / area - 1.0.
-concavity: Severity of concave portions of the contour.
-concave points: Number of concave portions of the contour.
-symmetry: Lump symmetry.
-fractal dimension: "Coastline approximation" - 1.
-Diagnosis: Whether the patient has cancer or not ('Malignant' or 'Benign').
+  Variable Description
+    radius: Mean of distances from the center to points on the perimeter.
+    texture: Standard deviation of gray-scale values.
+    perimeter: Observed perimeter of the lump.
+    area: Observed area of the lump.
+    smoothness: Local variation in radius lengths.
+    compactness: (perimeter^2) / area - 1.0.
+    concavity: Severity of concave portions of the contour.
+    concave points: Number of concave portions of the contour.
+    symmetry: Lump symmetry.
+    fractal dimension: "Coastline approximation" - 1.
+    Diagnosis: Whether the patient has cancer or not ('Malignant' or 'Benign').
 The dataset provides multiple features for each image, resulting in a total of 30 features. These features include mean, standard error, and "worst" (mean of the three largest values) values for each of the characteristics mentioned above.
 
 Scope
