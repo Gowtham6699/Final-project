@@ -1,15 +1,19 @@
 Predicting Breast Cancer in a Patient
 
   Abstract
+  
         Breast cancer is a prevalent and life-threatening disease, responsible for a significant number of deaths worldwide. It is the most common cancer among women and necessitates early detection and accurate diagnosis for effective treatment. This project focuses on utilizing ensemble techniques and data mining methods to predict breast cancer in patients based on cell nuclei characteristics.
 
   Problem Statement
+  
         The main objective of this project is to predict whether a patient has breast cancer or not by analyzing the details of cell nuclei extracted from breast mass. The prediction is made using ensemble techniques, which combine the power of multiple algorithms to improve accuracy. Before building the predictive model, an essential step involves exploratory data analysis (EDA) to gain insights into the data's characteristics. Additionally, the model's performance will be evaluated using various metrics beyond just accuracy.
 
   Dataset Information
+  
         The dataset used for this project contains several predictor variables and one target variable, 'Diagnosis.' The target variable has two categories: 'Benign,' indicating the absence of cancer, and 'Malignant,' indicating the presence of cancer with harmful effects on the cells.
 
   Variable Description
+  
     radius: Mean of distances from the center to points on the perimeter.
     texture: Standard deviation of gray-scale values.
     perimeter: Observed perimeter of the lump.
@@ -53,6 +57,7 @@ This project not only provides an opportunity to apply machine learning techniqu
 E-commerce Customer Segmentation
 
 Abstract:
+
 A key challenge for e-commerce businesses is to analyze the trend in the
 market to increase their sales. The trend can be easily observed if the
 
@@ -62,14 +67,17 @@ commerce site. This grouping can be done by applying different criteria like
 previous orders, mostly searched brands and so on.
 
 Problem Statement:
+
 Given the e-commerce data, use k-means clustering algorithm to cluster
 customers with similar interest.
 
 Dataset Information:
+
 The data was collected from a well known e-commerce website over a
 period of time based on the customer’s search profile.
 
 Variable Description:
+
 Column Description
 Cust_ID Unique numbering for customers
 Gender Gender of the customer
@@ -88,6 +96,7 @@ about the purchase pattern
 with the help of silhouette score
 
 Learning Outcome:
+
 The students will get a better understanding of how the variables are
 linked to each other and will be able to apply cluster analysis to business
 problem such as customer segmentation.
