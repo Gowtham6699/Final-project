@@ -1,4 +1,5 @@
 Predicting Breast Cancer in a Patient
+
 Abstract
         Breast cancer is a prevalent and life-threatening disease, responsible for a significant number of deaths worldwide. It is the most common cancer among women and necessitates early detection and accurate diagnosis for effective treatment. This project focuses on utilizing ensemble techniques and data mining methods to predict breast cancer in patients based on cell nuclei characteristics.
 
